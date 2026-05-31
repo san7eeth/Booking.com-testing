@@ -1,0 +1,24 @@
+# Excel Test Data Structure for testdata.xlsx
+# =============================================
+# This file documents the Excel structure.
+# The actual testdata.xlsx file is at: src/test/resources/testdata/testdata.xlsx
+#
+# SHEET 1: SearchData
+# -------------------
+# Row 1 (Header): Destination | CheckInDate | CheckOutDate | Adults | Children | Rooms
+# Row 2 (Data)  : Nairobi     | DYNAMIC+7   | DYNAMIC+12   | 4      | 1        | 2
+#
+# SHEET 2: ValidationData
+# -----------------------
+# Row 1 (Header): TestCase | Destination | CheckInDate | CheckOutDate | Adults | Children | Rooms
+# Row 2 (Data)  : Empty Destination | (blank) | DYNAMIC+7  | DYNAMIC+12 | 2 | 0 | 1
+# Row 3 (Data)  : Invalid Date Range | Nairobi | DYNAMIC+12 | DYNAMIC+7  | 2 | 0 | 1
+# Row 4 (Data)  : Invalid Guest Count | Nairobi | DYNAMIC+7 | DYNAMIC+12 | 99 | 0 | 0
+#
+# DYNAMIC DATE FORMAT:
+#   DYNAMIC+7  = Today's date + 7 days
+#   DYNAMIC+12 = Today's date + 12 days
+#   "Dynamic Future Date" = Uses default offset (7 for check-in, 12 for check-out)
+#
+# NOTE: Validation scenario reads Row 2 (first validation test case) by default.
+#       Change row index in ExcelUtils.readValidationData() to test other cases.

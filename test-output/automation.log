@@ -1,0 +1,873 @@
+2026-05-31 12:37:59 [main] INFO  hooks.Hooks - ========== Starting Scenario: Extract Cruise Details ==========
+2026-05-31 12:37:59 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:37:59 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:38:00 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:38:00 [main] INFO  hooks.Hooks - Scenario PASSED: Extract Cruise Details
+2026-05-31 12:38:01 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:38:01 [main] INFO  hooks.Hooks - ========== Finished Scenario: Extract Cruise Details ==========
+2026-05-31 12:38:28 [main] INFO  hooks.Hooks - ========== Starting Scenario: Extract Cruise Details ==========
+2026-05-31 12:38:28 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:38:28 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:38:29 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:38:30 [main] INFO  hooks.Hooks - Scenario PASSED: Extract Cruise Details
+2026-05-31 12:38:30 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:38:30 [main] INFO  hooks.Hooks - ========== Finished Scenario: Extract Cruise Details ==========
+2026-05-31 12:38:30 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes In Nairobi ==========
+2026-05-31 12:38:30 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:38:30 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:38:31 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:38:31 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes In Nairobi
+2026-05-31 12:38:31 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:38:31 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes In Nairobi ==========
+2026-05-31 12:38:31 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-05-31 12:38:31 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:38:31 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:38:32 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:38:32 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Amenity On First Property
+2026-05-31 12:38:32 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:38:32 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-05-31 12:38:32 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search ==========
+2026-05-31 12:38:32 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:38:32 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:38:33 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:38:33 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search
+2026-05-31 12:38:33 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:38:33 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search ==========
+2026-05-31 12:40:41 [main] INFO  hooks.Hooks - ========== Starting Scenario: Extract Cruise Details ==========
+2026-05-31 12:40:41 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:40:41 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:40:42 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:40:42 [main] INFO  base.BaseClass - Navigating to Cruise Website: https://www.cruisemapper.com/cruise-lines
+2026-05-31 12:40:44 [main] INFO  pages.CruisePage - Waiting for cruise website to load
+2026-05-31 12:40:47 [main] INFO  pages.CruisePage - Selecting a cruise line
+2026-05-31 12:40:58 [main] ERROR pages.CruisePage - Could not select cruise line: Index 0 out of bounds for length 0
+2026-05-31 12:40:58 [main] ERROR hooks.Hooks - Scenario FAILED: Extract Cruise Details
+2026-05-31 12:40:59 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/Extract_Cruise_Details_20260531_124058.png
+2026-05-31 12:40:59 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:40:59 [main] INFO  hooks.Hooks - ========== Finished Scenario: Extract Cruise Details ==========
+2026-05-31 12:40:59 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes In Nairobi ==========
+2026-05-31 12:40:59 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:40:59 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:41:00 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:41:00 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 12:41:32 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:41:32 [main] INFO  pages.HomePage - Cookie banner not displayed or already accepted
+2026-05-31 12:41:32 [main] INFO  stepdefinitions.CommonSteps - Booking.com launched successfully
+2026-05-31 12:41:32 [main] INFO  pages.HomePage - Entering destination: Nairobi
+2026-05-31 12:41:44 [main] INFO  pages.HomePage - Selecting 4 adult guests
+2026-05-31 12:42:16 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:42:16 [main] WARN  pages.HomePage - Guest selection using alternate approach: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:42:16 [main] INFO  pages.HomePage - Selecting stay for 5 days
+2026-05-31 12:42:17 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:42:17 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:42:17 [main] INFO  pages.HomePage - Dates selected - Check-in: 2026-06-07, Check-out: 2026-06-12
+2026-05-31 12:42:17 [main] INFO  pages.HomePage - Clicking Search button
+2026-05-31 12:42:17 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:42:22 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 12:42:25 [main] INFO  pages.SearchResultsPage - Selecting Holiday Homes property type filter
+2026-05-31 12:42:35 [main] WARN  pages.SearchResultsPage - Holiday Homes filter not found, continuing with all results: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@data-filters-group,'ht_id')]//span[contains(text(),'Holiday homes') or contains(text(),'Vacation Homes') or contains(text(),'Holiday Homes')]/ancestor::label | //input[@type='checkbox' and @value='220']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [746608011f753a96299ad3d203db0f27, findElement {value=//div[contains(@data-filters-group,'ht_id')]//span[contains(text(),'Holiday homes') or contains(text(),'Vacation Homes') or contains(text(),'Holiday Homes')]/ancestor::label | //input[@type='checkbox' and @value='220'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51421}, goog:processID: 17744, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51421/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 746608011f753a96299ad3d203db0f27
+2026-05-31 12:42:35 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 12:42:35 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:43:07 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:43:07 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+2026-05-31 12:43:07 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 12:43:08 [main] INFO  pages.SearchResultsPage - Extracting first 3 property details
+2026-05-31 12:43:09 [main] INFO  pages.SearchResultsPage - Property 1: Diamond Ivy Two Bedroom Apartment, Swimming pool, gym, workspace ,Wonderiss Properties Kileleshwa Living
+Opens in new window | Total: 5 nights, 2 adults | Per Night: ₹ 57,712₹ 31,693 | Rating: Scored 9.7
+9.7
+Exceptional
+30 reviews
+2026-05-31 12:43:09 [main] INFO  pages.SearchResultsPage - Property 2: Diamond Ivy Two Bedroom Apartment, Swimming pool, gym, workspace ,Wonderiss Properties Kileleshwa Living
+Opens in new window | Total: ₹ 31,693 | Per Night: ₹ 53,437 | Rating: Scored 9.7
+2026-05-31 12:43:09 [main] INFO  pages.SearchResultsPage - Property 3: Diamond Ivy Two Bedroom Apartment, Swimming pool, gym, workspace ,Wonderiss Properties Kileleshwa Living | Total: 5 nights, 2 adults | Per Night: ₹ 16,758₹ 15,338 | Rating: 9.7
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - 
+========== FIRST 3 PROPERTIES ==========
+
+--- Property 1 ---
+Property Name     : Diamond Ivy Two Bedroom Apartment, Swimming pool, gym, workspace ,Wonderiss Properties Kileleshwa Living
+Opens in new window
+Total Amount      : 5 nights, 2 adults
+Charges Per Night : ₹ 57,712₹ 31,693
+Traveler Rating   : Scored 9.7
+9.7
+Exceptional
+30 reviews
+
+--- Property 2 ---
+Property Name     : Diamond Ivy Two Bedroom Apartment, Swimming pool, gym, workspace ,Wonderiss Properties Kileleshwa Living
+Opens in new window
+Total Amount      : ₹ 31,693
+Charges Per Night : ₹ 53,437
+Traveler Rating   : Scored 9.7
+
+--- Property 3 ---
+Property Name     : Diamond Ivy Two Bedroom Apartment, Swimming pool, gym, workspace ,Wonderiss Properties Kileleshwa Living
+Total Amount      : 5 nights, 2 adults
+Charges Per Night : ₹ 16,758₹ 15,338
+Traveler Rating   : 9.7
+
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 1 Total Amount: 5 nights, 2 adults
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 2 Total Amount: ₹ 31,693
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 3 Total Amount: 5 nights, 2 adults
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 1 Charges Per Night: ₹ 57,712₹ 31,693
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 2 Charges Per Night: ₹ 53,437
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 3 Charges Per Night: ₹ 16,758₹ 15,338
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 1 Traveler Rating: Scored 9.7
+9.7
+Exceptional
+30 reviews
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 2 Traveler Rating: Scored 9.7
+2026-05-31 12:43:09 [main] INFO  stepdefinitions.SearchSteps - Property 3 Traveler Rating: 9.7
+2026-05-31 12:43:09 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes In Nairobi
+2026-05-31 12:43:09 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:43:09 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes In Nairobi ==========
+2026-05-31 12:43:09 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-05-31 12:43:09 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:43:09 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:43:10 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:43:10 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 12:43:41 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:43:41 [main] INFO  pages.HomePage - Cookie banner not displayed or already accepted
+2026-05-31 12:43:41 [main] INFO  stepdefinitions.CommonSteps - Booking.com launched successfully
+2026-05-31 12:43:41 [main] INFO  pages.HomePage - Entering destination: Nairobi
+2026-05-31 12:43:54 [main] INFO  pages.HomePage - Selecting 4 adult guests
+2026-05-31 12:43:55 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 12:44:26 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:44:26 [main] WARN  pages.HomePage - Guest selection using alternate approach: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:44:26 [main] INFO  pages.HomePage - Selecting stay for 5 days
+2026-05-31 12:44:27 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 12:44:29 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:44:30 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 12:44:30 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:44:31 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 12:44:31 [main] INFO  pages.HomePage - Dates selected - Check-in: 2026-06-07, Check-out: 2026-06-12
+2026-05-31 12:44:31 [main] INFO  pages.HomePage - Clicking Search button
+2026-05-31 12:44:31 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:44:32 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 12:44:36 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 12:44:39 [main] INFO  pages.SearchResultsPage - Selecting Holiday Homes property type filter
+2026-05-31 12:44:49 [main] WARN  pages.SearchResultsPage - Holiday Homes filter not found, continuing with all results: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@data-filters-group,'ht_id')]//span[contains(text(),'Holiday homes') or contains(text(),'Vacation Homes') or contains(text(),'Holiday Homes')]/ancestor::label | //input[@type='checkbox' and @value='220']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6205e8bcdd7c296877530399ea6b6ace, findElement {value=//div[contains(@data-filters-group,'ht_id')]//span[contains(text(),'Holiday homes') or contains(text(),'Vacation Homes') or contains(text(),'Holiday Homes')]/ancestor::label | //input[@type='checkbox' and @value='220'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52802}, goog:processID: 23292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52802/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6205e8bcdd7c296877530399ea6b6ace
+2026-05-31 12:44:49 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 12:44:49 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:45:21 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:45:21 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+2026-05-31 12:45:21 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 12:45:23 [main] INFO  pages.SearchResultsPage - Opening first property from results
+2026-05-31 12:45:23 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:45:26 [main] INFO  pages.SearchResultsPage - Switched to property details window
+2026-05-31 12:45:26 [main] INFO  pages.PropertyDetailsPage - Waiting for property details page to load
+2026-05-31 12:45:49 [main] INFO  pages.PropertyDetailsPage - Property page loaded
+2026-05-31 12:45:49 [main] INFO  pages.PropertyDetailsPage - Checking for Elevator or Lift availability
+2026-05-31 12:45:49 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:45:59 [main] INFO  pages.PropertyDetailsPage - Facilities section already visible or button not found
+2026-05-31 12:46:01 [main] INFO  pages.PropertyDetailsPage - Elevator/Lift available (page source check): true
+2026-05-31 12:46:01 [main] INFO  pages.PropertyDetailsPage - Amenity verification result: PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 12:46:01 [main] INFO  stepdefinitions.SearchSteps - PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 12:46:01 [main] INFO  pages.PropertyDetailsPage - Navigating back to home page
+2026-05-31 12:46:08 [main] INFO  pages.PropertyDetailsPage - Returned to home page
+2026-05-31 12:46:08 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Amenity On First Property
+2026-05-31 12:46:08 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:46:09 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-05-31 12:46:09 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search ==========
+2026-05-31 12:46:09 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:46:09 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:46:09 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:46:09 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 12:46:41 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:46:41 [main] INFO  pages.HomePage - Cookie banner not displayed or already accepted
+2026-05-31 12:46:41 [main] INFO  stepdefinitions.CommonSteps - Booking.com launched successfully
+2026-05-31 12:46:41 [main] INFO  pages.HomePage - Performing invalid search with empty destination
+2026-05-31 12:47:11 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:47:11 [main] INFO  pages.HomePage - Cookie banner not displayed or already accepted
+2026-05-31 12:47:11 [main] INFO  pages.HomePage - Clicking Search button
+2026-05-31 12:47:11 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:47:12 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 12:47:43 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-testid='searchbox-error'], .fe_banner__message, [role='alert']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:47:43 [main] INFO  stepdefinitions.ValidationSteps - Validation warning message: Please enter a destination to start searching
+2026-05-31 12:47:43 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/InvalidSearch_Validation_20260531_124743.png
+2026-05-31 12:47:43 [main] INFO  stepdefinitions.ValidationSteps - Validation screenshot captured at: test-output/screenshots/InvalidSearch_Validation_20260531_124743.png
+2026-05-31 12:47:43 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search
+2026-05-31 12:47:43 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:47:44 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search ==========
+2026-05-31 12:54:37 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes Using Excel Data ==========
+2026-05-31 12:54:37 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:54:37 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:54:38 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:54:38 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 12:54:39 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 12:55:09 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:55:09 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 12:55:40 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:55:40 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 12:55:50 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 12:55:51 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-05-31 12:55:51 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 12:55:51 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 12:55:51 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-05-31 12:56:03 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 12:56:24 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 12:56:25 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:56:25 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-05-31 12:56:57 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:56:57 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:56:57 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-05-31 12:57:28 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:57:28 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:57:28 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-05-31 12:58:00 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:58:00 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:58:00 [main] INFO  pages.HomePage - Search performed
+2026-05-31 12:58:00 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 12:58:00 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 12:58:03 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 12:58:13 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: no such element: Unable to locate element: {"method":"css selector","selector":"[data-testid='sorters-dropdown-trigger'], select[id*='sort'], #sort_by"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [faba0dcbb93b632a8854f661ffbf4962, findElement {value=[data-testid='sorters-dropdown-trigger'], select[id*='sort'], #sort_by, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50094}, goog:processID: 22548, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50094/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: faba0dcbb93b632a8854f661ffbf4962
+2026-05-31 12:58:13 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 12:58:15 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-05-31 12:58:15 [main] INFO  pages.SearchResultsPage - Extracting first 3 property details
+2026-05-31 12:58:25 [main] INFO  stepdefinitions.SearchSteps - 
+========== FIRST 3 PROPERTIES ==========
+
+2026-05-31 12:58:25 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes Using Excel Data
+2026-05-31 12:58:25 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 12:58:25 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes Using Excel Data ==========
+2026-05-31 12:58:25 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-05-31 12:58:25 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 12:58:25 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 12:58:26 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 12:58:26 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 12:58:27 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 12:59:12 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:59:12 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 12:59:42 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 12:59:42 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 12:59:52 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 12:59:52 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-05-31 12:59:52 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 12:59:52 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 12:59:52 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-05-31 13:00:05 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:00:06 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:00:27 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:00:28 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:00:29 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:00:30 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:00:30 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-05-31 13:00:31 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:01:03 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:01:03 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:01:03 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-05-31 13:01:04 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:01:35 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:01:35 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:01:35 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-05-31 13:01:36 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:02:08 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:02:08 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:02:09 [main] INFO  pages.HomePage - Guest popup closed
+2026-05-31 13:02:09 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:02:09 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:02:10 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:02:15 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 13:02:18 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 13:02:18 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:02:50 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:02:50 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+2026-05-31 13:02:50 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 13:02:51 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-05-31 13:02:51 [main] INFO  pages.SearchResultsPage - Opening first property from results
+2026-05-31 13:02:51 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:02:55 [main] INFO  pages.SearchResultsPage - Switched to property details window
+2026-05-31 13:02:55 [main] INFO  pages.PropertyDetailsPage - Waiting for property details page to load
+2026-05-31 13:03:18 [main] INFO  pages.PropertyDetailsPage - Property page loaded
+2026-05-31 13:03:18 [main] INFO  pages.PropertyDetailsPage - Checking for Elevator or Lift availability
+2026-05-31 13:03:18 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:03:28 [main] INFO  pages.PropertyDetailsPage - Facilities section already visible or button not found
+2026-05-31 13:03:29 [main] INFO  pages.PropertyDetailsPage - Found amenity: Upper floors accessible by elevator
+2026-05-31 13:03:29 [main] INFO  pages.PropertyDetailsPage - Amenity verification result: PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 13:03:29 [main] INFO  stepdefinitions.SearchSteps - PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 13:03:29 [main] INFO  pages.PropertyDetailsPage - Navigating back to search results page
+2026-05-31 13:03:31 [main] INFO  pages.PropertyDetailsPage - Returned to search results page
+2026-05-31 13:03:31 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Amenity On First Property
+2026-05-31 13:03:31 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:03:31 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-05-31 13:03:31 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search Validation ==========
+2026-05-31 13:03:31 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 13:03:31 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 13:03:32 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 13:03:32 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 13:03:33 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 13:04:04 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:04:04 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 13:04:34 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:04:34 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 13:04:44 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 13:04:44 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'ValidationData' row 1
+2026-05-31 13:04:44 [main] INFO  utils.ExcelUtils - Validation data read from Excel: {Destination=, CheckInDate=2026-06-07, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-12, Rooms=1}
+2026-05-31 13:04:44 [main] INFO  stepdefinitions.ValidationSteps - Excel data read - ValidationData: {Destination=, CheckInDate=2026-06-07, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-12, Rooms=1}
+2026-05-31 13:04:44 [main] INFO  pages.HomePage - Destination entered: 
+2026-05-31 13:04:44 [main] INFO  pages.HomePage - Empty destination - validation test
+2026-05-31 13:04:44 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:04:45 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:47 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:04:48 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:48 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:04:49 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:50 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:04:51 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:51 [main] INFO  pages.HomePage - Guest selection - Adults: 2
+2026-05-31 13:04:52 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:53 [main] INFO  pages.HomePage - Guest selection - Children: 0
+2026-05-31 13:04:54 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:55 [main] INFO  pages.HomePage - Guest selection - Rooms: 1
+2026-05-31 13:04:56 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:58 [main] INFO  pages.HomePage - Guest popup closed
+2026-05-31 13:04:58 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:04:58 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:04:59 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:04:59 [main] INFO  stepdefinitions.ValidationSteps - Invalid search performed using Excel validation data
+2026-05-31 13:05:32 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-testid='searchbox-error'], .fe_banner__message, [role='alert'], .sb-searchbox-error' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:05:32 [main] INFO  stepdefinitions.ValidationSteps - Validation message captured: Please enter a destination to start searching
+2026-05-31 13:05:32 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/Validation_Empty_Destination_20260531_130532.png
+2026-05-31 13:05:32 [main] INFO  stepdefinitions.ValidationSteps - Screenshot captured at: test-output/screenshots/Validation_Empty_Destination_20260531_130532.png
+2026-05-31 13:05:32 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search Validation
+2026-05-31 13:05:32 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:05:32 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search Validation ==========
+2026-05-31 13:18:51 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes Using Excel Data ==========
+2026-05-31 13:18:51 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 13:18:51 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 13:18:53 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 13:18:53 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 13:18:54 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 13:19:24 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:19:24 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 13:19:55 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:19:55 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 13:20:05 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 13:20:05 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-05-31 13:20:05 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:20:05 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:20:05 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-05-31 13:20:17 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:20:39 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:20:40 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:20:40 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-05-31 13:21:12 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:21:12 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:21:12 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-05-31 13:21:43 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:21:43 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:21:43 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-05-31 13:22:15 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:22:15 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:22:15 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:22:15 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:22:15 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 13:22:21 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 13:22:21 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:22:53 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:22:53 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+2026-05-31 13:22:53 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 13:22:54 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-05-31 13:22:54 [main] INFO  pages.SearchResultsPage - Extracting first 3 property details
+2026-05-31 13:22:54 [main] INFO  pages.SearchResultsPage - Property 1: Spacious 2 bedroom In Kilimani with a view gym n pool
+Opens in new window | Total: 1 night, 2 adults | Per Night: ₹ 11,115 | Rating: Scored 8.7
+8.7
+Fabulous
+272 reviews
+2026-05-31 13:22:54 [main] INFO  pages.SearchResultsPage - Property 2: Spacious 2 bedroom In Kilimani with a view gym n pool
+Opens in new window | Total: ₹ 11,115 | Per Night: ₹ 15,881 | Rating: Scored 8.7
+2026-05-31 13:22:55 [main] INFO  pages.SearchResultsPage - Property 3: Spacious 2 bedroom In Kilimani with a view gym n pool | Total: 1 night, 2 adults | Per Night: ₹ 5,120₹ 3,750 | Rating: 8.7
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - 
+========== FIRST 3 PROPERTIES ==========
+
+--- Property 1 ---
+Property Name     : Spacious 2 bedroom In Kilimani with a view gym n pool
+Opens in new window
+Total Amount      : 1 night, 2 adults
+Charges Per Night : ₹ 11,115
+Traveler Rating   : Scored 8.7
+8.7
+Fabulous
+272 reviews
+
+--- Property 2 ---
+Property Name     : Spacious 2 bedroom In Kilimani with a view gym n pool
+Opens in new window
+Total Amount      : ₹ 11,115
+Charges Per Night : ₹ 15,881
+Traveler Rating   : Scored 8.7
+
+--- Property 3 ---
+Property Name     : Spacious 2 bedroom In Kilimani with a view gym n pool
+Total Amount      : 1 night, 2 adults
+Charges Per Night : ₹ 5,120₹ 3,750
+Traveler Rating   : 8.7
+
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 1 Total Amount: 1 night, 2 adults
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 2 Total Amount: ₹ 11,115
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 3 Total Amount: 1 night, 2 adults
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 1 Charges Per Night: ₹ 11,115
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 2 Charges Per Night: ₹ 15,881
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 3 Charges Per Night: ₹ 5,120₹ 3,750
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 1 Traveler Rating: Scored 8.7
+8.7
+Fabulous
+272 reviews
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 2 Traveler Rating: Scored 8.7
+2026-05-31 13:22:55 [main] INFO  stepdefinitions.SearchSteps - Property 3 Traveler Rating: 8.7
+2026-05-31 13:22:55 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes Using Excel Data
+2026-05-31 13:22:55 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:22:55 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes Using Excel Data ==========
+2026-05-31 13:22:55 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-05-31 13:22:55 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 13:22:55 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 13:22:56 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 13:22:56 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 13:22:56 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 13:23:27 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:23:27 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 13:23:58 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:23:58 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 13:24:08 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 13:24:08 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-05-31 13:24:08 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:24:08 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:24:08 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-05-31 13:24:20 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:24:21 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:24:42 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:24:43 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:24:44 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:24:45 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:24:45 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-05-31 13:24:47 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:25:18 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:25:18 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Adults'], button[data-testid='stepper-adults-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:25:18 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-05-31 13:25:19 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:25:51 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:25:51 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Children'], button[data-testid='stepper-children-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:25:51 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-05-31 13:25:52 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:26:23 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:26:23 [main] WARN  pages.HomePage - Count adjustment issue: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: button[aria-label*='Increase number of Rooms'], button[data-testid='stepper-rooms-increase-button']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:26:24 [main] INFO  pages.HomePage - Guest popup closed
+2026-05-31 13:26:24 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:26:24 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:26:25 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:26:30 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 13:26:33 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 13:26:33 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:27:04 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:27:04 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+2026-05-31 13:27:04 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 13:27:06 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-05-31 13:27:06 [main] INFO  pages.SearchResultsPage - Opening first property from results
+2026-05-31 13:27:06 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:27:09 [main] INFO  pages.SearchResultsPage - Switched to property details window
+2026-05-31 13:27:09 [main] INFO  pages.PropertyDetailsPage - Waiting for property details page to load
+2026-05-31 13:27:32 [main] INFO  pages.PropertyDetailsPage - Property page loaded
+2026-05-31 13:27:32 [main] INFO  pages.PropertyDetailsPage - Checking for Elevator or Lift availability
+2026-05-31 13:27:32 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:27:42 [main] INFO  pages.PropertyDetailsPage - Facilities section already visible or button not found
+2026-05-31 13:27:43 [main] INFO  pages.PropertyDetailsPage - Elevator/Lift available (page source check): true
+2026-05-31 13:27:43 [main] INFO  pages.PropertyDetailsPage - Amenity verification result: PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 13:27:43 [main] INFO  stepdefinitions.SearchSteps - PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 13:27:43 [main] INFO  pages.PropertyDetailsPage - Navigating back to search results page
+2026-05-31 13:27:45 [main] INFO  pages.PropertyDetailsPage - Returned to search results page
+2026-05-31 13:27:45 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Amenity On First Property
+2026-05-31 13:27:45 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:27:45 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-05-31 13:27:45 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search Validation ==========
+2026-05-31 13:27:45 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 13:27:45 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 13:27:47 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 13:27:47 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 13:27:47 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 13:28:18 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:28:18 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 13:28:48 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:28:48 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 13:28:58 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 13:28:58 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'ValidationData' row 1
+2026-05-31 13:28:58 [main] INFO  utils.ExcelUtils - Validation data read from Excel: {Destination=, CheckInDate=2026-06-07, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-12, Rooms=1}
+2026-05-31 13:28:58 [main] INFO  stepdefinitions.ValidationSteps - Excel data read - ValidationData: {Destination=, CheckInDate=2026-06-07, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-12, Rooms=1}
+2026-05-31 13:28:58 [main] INFO  pages.HomePage - Destination entered: 
+2026-05-31 13:28:58 [main] INFO  pages.HomePage - Empty destination - validation test
+2026-05-31 13:28:58 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:29:00 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:01 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:29:02 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:02 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:29:03 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:04 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:29:05 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:05 [main] INFO  pages.HomePage - Guest selection - Adults: 2
+2026-05-31 13:29:06 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:07 [main] INFO  pages.HomePage - Guest selection - Children: 0
+2026-05-31 13:29:08 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:09 [main] INFO  pages.HomePage - Guest selection - Rooms: 1
+2026-05-31 13:29:10 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:12 [main] INFO  pages.HomePage - Guest popup closed
+2026-05-31 13:29:12 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:29:12 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:29:13 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:29:13 [main] INFO  stepdefinitions.ValidationSteps - Invalid search performed using Excel validation data
+2026-05-31 13:29:46 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-testid='searchbox-error'], .fe_banner__message, [role='alert'], .sb-searchbox-error' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:29:46 [main] INFO  stepdefinitions.ValidationSteps - Validation message captured: Please enter a destination to start searching
+2026-05-31 13:29:46 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/Validation_Empty_Destination_20260531_132946.png
+2026-05-31 13:29:46 [main] INFO  stepdefinitions.ValidationSteps - Screenshot captured at: test-output/screenshots/Validation_Empty_Destination_20260531_132946.png
+2026-05-31 13:29:46 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search Validation
+2026-05-31 13:29:46 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:29:46 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search Validation ==========
+2026-05-31 13:34:18 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes Using Excel Data ==========
+2026-05-31 13:34:18 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 13:34:18 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 13:34:19 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 13:34:19 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 13:34:20 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 13:34:51 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:34:51 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 13:35:21 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:35:21 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 13:35:31 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 13:35:32 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-05-31 13:35:32 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:35:32 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:35:32 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-05-31 13:35:44 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:36:05 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:36:07 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:36:07 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-05-31 13:36:18 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:36:18 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:36:38 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f4710e073491558da5e13b8a6f0d43)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 19928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f4710e073491558da5e13b8a6f0d43
+2026-05-31 13:36:38 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f4710e073491558da5e13b8a6f0d43)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 19928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f4710e073491558da5e13b8a6f0d43
+2026-05-31 13:36:39 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-05-31 13:36:39 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-05-31 13:36:50 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:36:50 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:37:10 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f4710e073491558da5e13b8a6f0d43)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 19928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f4710e073491558da5e13b8a6f0d43
+2026-05-31 13:37:10 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f4710e073491558da5e13b8a6f0d43)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 19928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f4710e073491558da5e13b8a6f0d43
+2026-05-31 13:37:11 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-05-31 13:37:11 [main] INFO  pages.HomePage - Children count set to: 1
+2026-05-31 13:37:11 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-05-31 13:37:22 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:37:22 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:37:42 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f4710e073491558da5e13b8a6f0d43)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 19928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f4710e073491558da5e13b8a6f0d43
+2026-05-31 13:37:42 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f4710e073491558da5e13b8a6f0d43)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 19928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f4710e073491558da5e13b8a6f0d43
+2026-05-31 13:37:43 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-05-31 13:37:43 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-05-31 13:37:43 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:37:43 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:37:48 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 13:37:51 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 13:37:51 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:38:23 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:38:23 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+2026-05-31 13:38:23 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 13:38:24 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-05-31 13:38:24 [main] INFO  pages.SearchResultsPage - Extracting first 3 property details
+2026-05-31 13:38:24 [main] INFO  pages.SearchResultsPage - Property 1: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 6,218₹ 4,552 | Rating: Scored 9.0
+9.0
+Superb
+2 reviews
+2026-05-31 13:38:24 [main] INFO  pages.SearchResultsPage - Property 2: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: ₹ 4,552 | Per Night: ₹ 38,000 | Rating: Scored 9.0
+2026-05-31 13:38:25 [main] INFO  pages.SearchResultsPage - Property 3: Countryside Villa 4BDR with Unlimited WIFi&Netflix | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 12,854 | Rating: 9.0
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - 
+========== FIRST 3 PROPERTIES ==========
+
+--- Property 1 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 6,218₹ 4,552
+Traveler Rating   : Scored 9.0
+9.0
+Superb
+2 reviews
+
+--- Property 2 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : ₹ 4,552
+Charges Per Night : ₹ 38,000
+Traveler Rating   : Scored 9.0
+
+--- Property 3 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 12,854
+Traveler Rating   : 9.0
+
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 1 Total Amount: 1 night, 4 adults, 1 child
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 2 Total Amount: ₹ 4,552
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 3 Total Amount: 1 night, 4 adults, 1 child
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 1 Charges Per Night: ₹ 6,218₹ 4,552
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 2 Charges Per Night: ₹ 38,000
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 3 Charges Per Night: ₹ 12,854
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 1 Traveler Rating: Scored 9.0
+9.0
+Superb
+2 reviews
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 2 Traveler Rating: Scored 9.0
+2026-05-31 13:38:25 [main] INFO  stepdefinitions.SearchSteps - Property 3 Traveler Rating: 9.0
+2026-05-31 13:38:25 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes Using Excel Data
+2026-05-31 13:38:25 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:38:25 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes Using Excel Data ==========
+2026-05-31 13:38:25 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-05-31 13:38:25 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 13:38:25 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 13:38:26 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 13:38:26 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 13:38:26 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 13:38:57 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:38:57 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 13:39:27 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:39:27 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 13:39:37 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 13:39:38 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-05-31 13:39:38 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:39:38 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-07, Adults=4, Children=1, CheckOutDate=2026-06-12, Rooms=2}
+2026-05-31 13:39:38 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-05-31 13:39:50 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:39:51 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:40:12 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:40:13 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:40:14 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:40:15 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:40:16 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-05-31 13:40:26 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:40:27 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:40:47 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7c841c65311eb2a689bde95cdc742f4b)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53159}, goog:processID: 12000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53159/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c841c65311eb2a689bde95cdc742f4b
+2026-05-31 13:40:47 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7c841c65311eb2a689bde95cdc742f4b)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53159}, goog:processID: 12000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53159/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c841c65311eb2a689bde95cdc742f4b
+2026-05-31 13:40:48 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-05-31 13:40:48 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-05-31 13:40:58 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:40:58 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:41:19 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7c841c65311eb2a689bde95cdc742f4b)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53159}, goog:processID: 12000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53159/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c841c65311eb2a689bde95cdc742f4b
+2026-05-31 13:41:19 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7c841c65311eb2a689bde95cdc742f4b)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53159}, goog:processID: 12000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53159/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c841c65311eb2a689bde95cdc742f4b
+2026-05-31 13:41:20 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-05-31 13:41:20 [main] INFO  pages.HomePage - Children count set to: 1
+2026-05-31 13:41:20 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-05-31 13:41:31 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:41:31 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:41:51 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7c841c65311eb2a689bde95cdc742f4b)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53159}, goog:processID: 12000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53159/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c841c65311eb2a689bde95cdc742f4b
+2026-05-31 13:41:51 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (7c841c65311eb2a689bde95cdc742f4b)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53159}, goog:processID: 12000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53159/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c841c65311eb2a689bde95cdc742f4b
+2026-05-31 13:41:52 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-05-31 13:41:52 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-05-31 13:41:52 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:41:52 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:41:56 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-05-31 13:41:59 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-05-31 13:41:59 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:42:30 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:42:31 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: driver.version: unknown
+2026-05-31 13:42:31 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-05-31 13:42:32 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-05-31 13:42:32 [main] INFO  pages.SearchResultsPage - Opening first property from results
+2026-05-31 13:42:32 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:42:35 [main] INFO  pages.SearchResultsPage - Switched to property details window
+2026-05-31 13:42:35 [main] INFO  pages.PropertyDetailsPage - Waiting for property details page to load
+2026-05-31 13:42:58 [main] INFO  pages.PropertyDetailsPage - Property page loaded
+2026-05-31 13:42:58 [main] INFO  pages.PropertyDetailsPage - Checking for Elevator or Lift availability
+2026-05-31 13:42:58 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:43:08 [main] INFO  pages.PropertyDetailsPage - Facilities section already visible or button not found
+2026-05-31 13:43:09 [main] INFO  pages.PropertyDetailsPage - Elevator/Lift available (page source check): true
+2026-05-31 13:43:09 [main] INFO  pages.PropertyDetailsPage - Amenity verification result: PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 13:43:09 [main] INFO  stepdefinitions.SearchSteps - PASS - Elevator or Lift is AVAILABLE in this property
+2026-05-31 13:43:09 [main] INFO  pages.PropertyDetailsPage - Navigating back to search results page
+2026-05-31 13:43:11 [main] INFO  pages.PropertyDetailsPage - Returned to search results page
+2026-05-31 13:43:11 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Amenity On First Property
+2026-05-31 13:43:12 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:43:12 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-05-31 13:43:12 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search Validation ==========
+2026-05-31 13:43:12 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-05-31 13:43:12 [main] INFO  base.BaseClass - Launching chrome browser
+2026-05-31 13:43:12 [main] INFO  base.BaseClass - Browser launched successfully
+2026-05-31 13:43:12 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-05-31 13:43:13 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-05-31 13:43:44 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: [aria-label='Dismiss sign-in info.'], button[aria-label*='Close'], button[aria-label*='close']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:43:44 [main] INFO  pages.HomePage - Sign-in popup not displayed
+2026-05-31 13:44:14 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:44:14 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-05-31 13:44:25 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-05-31 13:44:25 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'ValidationData' row 1
+2026-05-31 13:44:25 [main] INFO  utils.ExcelUtils - Validation data read from Excel: {Destination=, CheckInDate=2026-06-07, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-12, Rooms=1}
+2026-05-31 13:44:25 [main] INFO  stepdefinitions.ValidationSteps - Excel data read - ValidationData: {Destination=, CheckInDate=2026-06-07, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-12, Rooms=1}
+2026-05-31 13:44:25 [main] INFO  pages.HomePage - Destination entered: 
+2026-05-31 13:44:25 [main] INFO  pages.HomePage - Empty destination - validation test
+2026-05-31 13:44:25 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-07
+2026-05-31 13:44:26 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:44:27 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:44:28 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:44:28 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-12
+2026-05-31 13:44:29 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:44:30 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:44:31 [main] WARN  utils.WaitUtils - Normal click intercepted, using JavaScript click
+2026-05-31 13:44:32 [main] INFO  pages.HomePage - Guest selection - Adults: 2
+2026-05-31 13:44:42 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:44:42 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:45:03 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (11c09bcbbb8c89db869adaa898e28174)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55403}, goog:processID: 8272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55403/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11c09bcbbb8c89db869adaa898e28174
+2026-05-31 13:45:03 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (11c09bcbbb8c89db869adaa898e28174)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55403}, goog:processID: 8272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55403/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11c09bcbbb8c89db869adaa898e28174
+2026-05-31 13:45:03 [main] INFO  pages.HomePage - Adults count set to: 2
+2026-05-31 13:45:03 [main] INFO  pages.HomePage - Guest selection - Children: 0
+2026-05-31 13:45:13 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:45:13 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:45:34 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (11c09bcbbb8c89db869adaa898e28174)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55403}, goog:processID: 8272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55403/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11c09bcbbb8c89db869adaa898e28174
+2026-05-31 13:45:34 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (11c09bcbbb8c89db869adaa898e28174)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55403}, goog:processID: 8272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55403/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11c09bcbbb8c89db869adaa898e28174
+2026-05-31 13:45:45 [main] INFO  pages.HomePage - Children count set to: 0
+2026-05-31 13:45:45 [main] INFO  pages.HomePage - Guest selection - Rooms: 1
+2026-05-31 13:45:55 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:45:55 [main] INFO  pages.HomePage - Guest popup opened
+2026-05-31 13:46:16 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (11c09bcbbb8c89db869adaa898e28174)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55403}, goog:processID: 8272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55403/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11c09bcbbb8c89db869adaa898e28174
+2026-05-31 13:46:16 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (11c09bcbbb8c89db869adaa898e28174)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\SANGEE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55403}, goog:processID: 8272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55403/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11c09bcbbb8c89db869adaa898e28174
+2026-05-31 13:46:16 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-05-31 13:46:16 [main] INFO  pages.HomePage - Rooms count set to: 1 and guest popup closed
+2026-05-31 13:46:16 [main] INFO  pages.HomePage - Search performed
+2026-05-31 13:46:16 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-05-31 13:46:16 [main] INFO  stepdefinitions.ValidationSteps - Invalid search performed using Excel validation data
+2026-05-31 13:46:49 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-testid='searchbox-error'], .fe_banner__message, [role='alert'], .sb-searchbox-error' (tried for 20 second(s) with 500 milliseconds interval)
+2026-05-31 13:46:49 [main] INFO  stepdefinitions.ValidationSteps - Validation message captured: Please enter a destination to start searching
+2026-05-31 13:46:49 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/Validation_Empty_Destination_20260531_134649.png
+2026-05-31 13:46:49 [main] INFO  stepdefinitions.ValidationSteps - Screenshot captured at: test-output/screenshots/Validation_Empty_Destination_20260531_134649.png
+2026-05-31 13:46:49 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search Validation
+2026-05-31 13:46:49 [main] INFO  base.BaseClass - Closing browser
+2026-05-31 13:46:49 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search Validation ==========
