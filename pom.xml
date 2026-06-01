@@ -4,11 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cognizant.hackathon</groupId>
+    <groupId>Booking.com</groupId>
     <artifactId>holiday-home-calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Holiday Home Cost Calculator Automation Framework</name>
-    <description>Selenium BDD Automation Framework for Booking.com - Cognizant Hackathon</description>
+    <name>Booking.com</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

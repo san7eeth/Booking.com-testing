@@ -871,3 +871,971 @@ Session ID: 11c09bcbbb8c89db869adaa898e28174
 2026-05-31 13:46:49 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search Validation
 2026-05-31 13:46:49 [main] INFO  base.BaseClass - Closing browser
 2026-05-31 13:46:49 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search Validation ==========
+2026-06-01 09:20:22 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes Using Excel Data ==========
+2026-06-01 09:20:22 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 09:20:22 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 09:20:29 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 09:20:30 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 09:20:33 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 09:20:38 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 09:21:08 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 09:21:08 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 09:21:18 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 09:21:19 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-06-01 09:21:19 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 09:21:19 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 09:21:19 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-06-01 09:21:32 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 09:21:54 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 09:21:56 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:21:57 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-06-01 09:22:08 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:22:08 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:22:28 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (9975375e2c210c670084f3f20c609570)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60129}, goog:processID: 24820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60129/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9975375e2c210c670084f3f20c609570
+2026-06-01 09:22:28 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (9975375e2c210c670084f3f20c609570)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60129}, goog:processID: 24820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60129/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9975375e2c210c670084f3f20c609570
+2026-06-01 09:22:30 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-06-01 09:22:30 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-06-01 09:22:41 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:22:41 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:23:01 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (9975375e2c210c670084f3f20c609570)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60129}, goog:processID: 24820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60129/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9975375e2c210c670084f3f20c609570
+2026-06-01 09:23:01 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (9975375e2c210c670084f3f20c609570)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60129}, goog:processID: 24820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60129/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9975375e2c210c670084f3f20c609570
+2026-06-01 09:23:03 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-06-01 09:23:03 [main] INFO  pages.HomePage - Children count set to: 1
+2026-06-01 09:23:03 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-06-01 09:23:14 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:23:15 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:23:35 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (9975375e2c210c670084f3f20c609570)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60129}, goog:processID: 24820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60129/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9975375e2c210c670084f3f20c609570
+2026-06-01 09:23:35 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (9975375e2c210c670084f3f20c609570)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60129}, goog:processID: 24820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60129/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9975375e2c210c670084f3f20c609570
+2026-06-01 09:23:37 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 09:23:37 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-06-01 09:23:37 [main] INFO  pages.HomePage - Search performed
+2026-06-01 09:23:37 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:23:44 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-06-01 09:23:47 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-06-01 09:23:47 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:24:19 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 09:24:19 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: unknown
+2026-06-01 09:24:19 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-06-01 09:24:21 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-06-01 09:24:21 [main] INFO  pages.SearchResultsPage - Extracting first 3 property details
+2026-06-01 09:24:21 [main] INFO  pages.SearchResultsPage - Property 1: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 6,218₹ 4,552 | Rating: Scored 9.0
+9.0
+Wonderful
+2 reviews
+2026-06-01 09:24:22 [main] INFO  pages.SearchResultsPage - Property 2: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: ₹ 4,552 | Per Night: ₹ 22,230 | Rating: Scored 9.0
+2026-06-01 09:24:22 [main] INFO  pages.SearchResultsPage - Property 3: Countryside Villa 4BDR with Unlimited WIFi&Netflix | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 26,386₹ 24,150 | Rating: 9.0
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - 
+========== FIRST 3 PROPERTIES ==========
+
+--- Property 1 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 6,218₹ 4,552
+Traveler Rating   : Scored 9.0
+9.0
+Wonderful
+2 reviews
+
+--- Property 2 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : ₹ 4,552
+Charges Per Night : ₹ 22,230
+Traveler Rating   : Scored 9.0
+
+--- Property 3 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 26,386₹ 24,150
+Traveler Rating   : 9.0
+
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 1 Total Amount: 1 night, 4 adults, 1 child
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 2 Total Amount: ₹ 4,552
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 3 Total Amount: 1 night, 4 adults, 1 child
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 1 Charges Per Night: ₹ 6,218₹ 4,552
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 2 Charges Per Night: ₹ 22,230
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 3 Charges Per Night: ₹ 26,386₹ 24,150
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 1 Traveler Rating: Scored 9.0
+9.0
+Wonderful
+2 reviews
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 2 Traveler Rating: Scored 9.0
+2026-06-01 09:24:22 [main] INFO  stepdefinitions.SearchSteps - Property 3 Traveler Rating: 9.0
+2026-06-01 09:24:22 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes Using Excel Data
+2026-06-01 09:24:24 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 09:24:34 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes Using Excel Data ==========
+2026-06-01 09:24:34 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-06-01 09:24:34 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 09:24:34 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 09:24:37 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 09:24:37 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 09:24:39 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 09:24:43 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 09:25:13 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 09:25:13 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 09:25:23 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 09:25:24 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-06-01 09:25:24 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 09:25:24 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 09:25:24 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-06-01 09:25:36 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 09:25:58 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 09:26:00 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:26:01 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-06-01 09:26:12 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:26:12 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:26:32 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f287706a83f75b849d6393d3a3182f)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56080}, goog:processID: 10768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56080/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f287706a83f75b849d6393d3a3182f
+2026-06-01 09:26:32 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f287706a83f75b849d6393d3a3182f)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56080}, goog:processID: 10768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56080/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f287706a83f75b849d6393d3a3182f
+2026-06-01 09:26:34 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-06-01 09:26:34 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-06-01 09:26:45 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:26:45 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:27:05 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f287706a83f75b849d6393d3a3182f)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56080}, goog:processID: 10768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56080/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f287706a83f75b849d6393d3a3182f
+2026-06-01 09:27:05 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f287706a83f75b849d6393d3a3182f)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56080}, goog:processID: 10768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56080/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f287706a83f75b849d6393d3a3182f
+2026-06-01 09:27:07 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-06-01 09:27:07 [main] INFO  pages.HomePage - Children count set to: 1
+2026-06-01 09:27:07 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-06-01 09:27:18 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:27:19 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:27:39 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f287706a83f75b849d6393d3a3182f)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56080}, goog:processID: 10768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56080/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f287706a83f75b849d6393d3a3182f
+2026-06-01 09:27:39 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0f287706a83f75b849d6393d3a3182f)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56080}, goog:processID: 10768, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56080/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f287706a83f75b849d6393d3a3182f
+2026-06-01 09:27:41 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 09:27:41 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-06-01 09:27:41 [main] INFO  pages.HomePage - Search performed
+2026-06-01 09:27:41 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:27:56 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-06-01 09:27:59 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-06-01 09:27:59 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:28:32 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 09:28:32 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: unknown
+2026-06-01 09:28:32 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-06-01 09:28:33 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-06-01 09:28:33 [main] INFO  pages.SearchResultsPage - Opening first property from results
+2026-06-01 09:28:33 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:28:38 [main] INFO  pages.SearchResultsPage - Switched to property details window
+2026-06-01 09:28:38 [main] INFO  pages.PropertyDetailsPage - Waiting for property details page to load
+2026-06-01 09:29:01 [main] INFO  pages.PropertyDetailsPage - Property page loaded
+2026-06-01 09:29:01 [main] INFO  pages.PropertyDetailsPage - Checking for Elevator or Lift availability
+2026-06-01 09:29:01 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:29:11 [main] INFO  pages.PropertyDetailsPage - Facilities section already visible or button not found
+2026-06-01 09:29:14 [main] INFO  pages.PropertyDetailsPage - Elevator/Lift available (page source check): true
+2026-06-01 09:29:14 [main] INFO  pages.PropertyDetailsPage - Amenity verification result: PASS - Elevator or Lift is AVAILABLE in this property
+2026-06-01 09:29:14 [main] INFO  stepdefinitions.SearchSteps - PASS - Elevator or Lift is AVAILABLE in this property
+2026-06-01 09:29:14 [main] INFO  pages.PropertyDetailsPage - Navigating back to search results page
+2026-06-01 09:29:16 [main] INFO  pages.PropertyDetailsPage - Returned to search results page
+2026-06-01 09:29:16 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Amenity On First Property
+2026-06-01 09:29:16 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 09:29:27 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-06-01 09:29:27 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search Validation ==========
+2026-06-01 09:29:27 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 09:29:27 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 09:29:29 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 09:29:29 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 09:29:32 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 09:29:36 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 09:30:07 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 09:30:07 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 09:30:17 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 09:30:17 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'ValidationData' row 1
+2026-06-01 09:30:17 [main] INFO  utils.ExcelUtils - Validation data read from Excel: {Destination=, CheckInDate=2026-06-08, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-13, Rooms=1}
+2026-06-01 09:30:17 [main] INFO  stepdefinitions.ValidationSteps - Excel data read - ValidationData: {Destination=, CheckInDate=2026-06-08, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-13, Rooms=1}
+2026-06-01 09:30:17 [main] INFO  pages.HomePage - Destination entered: 
+2026-06-01 09:30:17 [main] INFO  pages.HomePage - Empty destination - validation test
+2026-06-01 09:30:17 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 09:30:19 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:30:19 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 09:30:21 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:30:22 [main] INFO  pages.HomePage - Guest selection - Adults: 2
+2026-06-01 09:30:32 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:30:33 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:30:53 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1d11505708eb0c56d03325f4c31dd6c8)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55137}, goog:processID: 10940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55137/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11505708eb0c56d03325f4c31dd6c8
+2026-06-01 09:30:53 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1d11505708eb0c56d03325f4c31dd6c8)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55137}, goog:processID: 10940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55137/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11505708eb0c56d03325f4c31dd6c8
+2026-06-01 09:30:53 [main] INFO  pages.HomePage - Adults count set to: 2
+2026-06-01 09:30:53 [main] INFO  pages.HomePage - Guest selection - Children: 0
+2026-06-01 09:31:04 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:31:04 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 09:31:25 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1d11505708eb0c56d03325f4c31dd6c8)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55137}, goog:processID: 10940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55137/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11505708eb0c56d03325f4c31dd6c8
+2026-06-01 09:31:25 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1d11505708eb0c56d03325f4c31dd6c8)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55137}, goog:processID: 10940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55137/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11505708eb0c56d03325f4c31dd6c8
+2026-06-01 09:31:36 [main] INFO  pages.HomePage - Children count set to: 0
+2026-06-01 09:31:36 [main] INFO  pages.HomePage - Guest selection - Rooms: 1
+2026-06-01 09:31:37 [main] INFO  pages.HomePage - Guest popup already open
+2026-06-01 09:31:57 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1d11505708eb0c56d03325f4c31dd6c8)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55137}, goog:processID: 10940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55137/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11505708eb0c56d03325f4c31dd6c8
+2026-06-01 09:31:57 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1d11505708eb0c56d03325f4c31dd6c8)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55137}, goog:processID: 10940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55137/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11505708eb0c56d03325f4c31dd6c8
+2026-06-01 09:31:58 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 09:31:58 [main] INFO  pages.HomePage - Rooms count set to: 1 and guest popup closed
+2026-06-01 09:31:58 [main] INFO  pages.HomePage - Search performed
+2026-06-01 09:31:58 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 09:31:58 [main] INFO  stepdefinitions.ValidationSteps - Invalid search performed using Excel validation data
+2026-06-01 09:32:31 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-testid='searchbox-error'], .fe_banner__message, [role='alert'], .sb-searchbox-error' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 09:32:31 [main] INFO  stepdefinitions.ValidationSteps - Validation message captured: Please enter a destination to start searching
+2026-06-01 09:32:32 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/Validation_Empty_Destination_20260601_093231.png
+2026-06-01 09:32:32 [main] INFO  stepdefinitions.ValidationSteps - Screenshot captured at: test-output/screenshots/Validation_Empty_Destination_20260601_093231.png
+2026-06-01 09:32:32 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search Validation
+2026-06-01 09:32:32 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 09:32:40 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search Validation ==========
+2026-06-01 15:34:38 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes Using Excel Data ==========
+2026-06-01 15:34:38 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 15:34:38 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 15:34:45 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 15:34:47 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 15:34:49 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 15:35:10 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 15:35:40 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 15:35:40 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 15:35:50 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 15:35:52 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-06-01 15:35:52 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 15:35:52 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 15:35:52 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-06-01 15:36:04 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 15:36:26 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 15:36:28 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:36:29 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-06-01 15:36:40 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:36:40 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:37:00 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (861729ec78a04fa0d4da75f4d5da6a1b)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57285}, goog:processID: 13032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57285/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 861729ec78a04fa0d4da75f4d5da6a1b
+2026-06-01 15:37:00 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (861729ec78a04fa0d4da75f4d5da6a1b)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57285}, goog:processID: 13032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57285/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 861729ec78a04fa0d4da75f4d5da6a1b
+2026-06-01 15:37:02 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-06-01 15:37:02 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-06-01 15:37:12 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:37:13 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:37:33 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (861729ec78a04fa0d4da75f4d5da6a1b)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57285}, goog:processID: 13032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57285/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 861729ec78a04fa0d4da75f4d5da6a1b
+2026-06-01 15:37:33 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (861729ec78a04fa0d4da75f4d5da6a1b)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57285}, goog:processID: 13032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57285/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 861729ec78a04fa0d4da75f4d5da6a1b
+2026-06-01 15:37:35 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-06-01 15:37:35 [main] INFO  pages.HomePage - Children count set to: 1
+2026-06-01 15:37:35 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-06-01 15:37:46 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:37:47 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:38:07 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (861729ec78a04fa0d4da75f4d5da6a1b)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57285}, goog:processID: 13032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57285/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 861729ec78a04fa0d4da75f4d5da6a1b
+2026-06-01 15:38:07 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (861729ec78a04fa0d4da75f4d5da6a1b)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57285}, goog:processID: 13032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57285/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 861729ec78a04fa0d4da75f4d5da6a1b
+2026-06-01 15:38:09 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 15:38:09 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-06-01 15:38:09 [main] INFO  pages.HomePage - Search performed
+2026-06-01 15:38:09 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:38:10 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-06-01 15:38:26 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-06-01 15:38:26 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:38:59 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 15:38:59 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: unknown
+2026-06-01 15:38:59 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-06-01 15:39:00 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-06-01 15:39:00 [main] INFO  pages.SearchResultsPage - Extracting first 3 property details
+2026-06-01 15:39:01 [main] INFO  pages.SearchResultsPage - Property 1: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 6,218₹ 4,552 | Rating: Scored 9.0
+9.0
+Wonderful
+3 reviews
+2026-06-01 15:39:01 [main] INFO  pages.SearchResultsPage - Property 2: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: ₹ 4,552 | Per Night: ₹ 36,812 | Rating: Scored 9.0
+2026-06-01 15:39:02 [main] INFO  pages.SearchResultsPage - Property 3: Countryside Villa 4BDR with Unlimited WIFi&Netflix | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 26,386₹ 24,150 | Rating: 9.0
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - 
+========== FIRST 3 PROPERTIES ==========
+
+--- Property 1 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 6,218₹ 4,552
+Traveler Rating   : Scored 9.0
+9.0
+Wonderful
+3 reviews
+
+--- Property 2 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : ₹ 4,552
+Charges Per Night : ₹ 36,812
+Traveler Rating   : Scored 9.0
+
+--- Property 3 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 26,386₹ 24,150
+Traveler Rating   : 9.0
+
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 1 Total Amount: 1 night, 4 adults, 1 child
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 2 Total Amount: ₹ 4,552
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 3 Total Amount: 1 night, 4 adults, 1 child
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 1 Charges Per Night: ₹ 6,218₹ 4,552
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 2 Charges Per Night: ₹ 36,812
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 3 Charges Per Night: ₹ 26,386₹ 24,150
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 1 Traveler Rating: Scored 9.0
+9.0
+Wonderful
+3 reviews
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 2 Traveler Rating: Scored 9.0
+2026-06-01 15:39:02 [main] INFO  stepdefinitions.SearchSteps - Property 3 Traveler Rating: 9.0
+2026-06-01 15:39:02 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes Using Excel Data
+2026-06-01 15:39:02 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 15:39:11 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes Using Excel Data ==========
+2026-06-01 15:39:11 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-06-01 15:39:11 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 15:39:11 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 15:39:14 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 15:39:14 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 15:39:17 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 15:39:27 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 15:39:57 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 15:39:57 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 15:40:07 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 15:40:08 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-06-01 15:40:08 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 15:40:08 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 15:40:08 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-06-01 15:40:20 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 15:40:42 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 15:40:44 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:40:45 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-06-01 15:40:56 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:40:57 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:41:17 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a6d29a506f4a97a72c5c60723a64de28)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63390}, goog:processID: 35848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63390/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6d29a506f4a97a72c5c60723a64de28
+2026-06-01 15:41:17 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a6d29a506f4a97a72c5c60723a64de28)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63390}, goog:processID: 35848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63390/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6d29a506f4a97a72c5c60723a64de28
+2026-06-01 15:41:18 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-06-01 15:41:18 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-06-01 15:41:29 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:41:30 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:41:50 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a6d29a506f4a97a72c5c60723a64de28)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63390}, goog:processID: 35848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63390/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6d29a506f4a97a72c5c60723a64de28
+2026-06-01 15:41:50 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a6d29a506f4a97a72c5c60723a64de28)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63390}, goog:processID: 35848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63390/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6d29a506f4a97a72c5c60723a64de28
+2026-06-01 15:41:52 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-06-01 15:41:52 [main] INFO  pages.HomePage - Children count set to: 1
+2026-06-01 15:41:52 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-06-01 15:42:03 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:42:03 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:42:23 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a6d29a506f4a97a72c5c60723a64de28)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63390}, goog:processID: 35848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63390/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6d29a506f4a97a72c5c60723a64de28
+2026-06-01 15:42:23 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a6d29a506f4a97a72c5c60723a64de28)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63390}, goog:processID: 35848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63390/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6d29a506f4a97a72c5c60723a64de28
+2026-06-01 15:42:25 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 15:42:25 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-06-01 15:42:25 [main] INFO  pages.HomePage - Search performed
+2026-06-01 15:42:25 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:42:37 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-06-01 15:42:40 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-06-01 15:42:40 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:43:12 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 15:43:13 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: unknown
+2026-06-01 15:43:13 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-06-01 15:43:14 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-06-01 15:43:14 [main] INFO  pages.SearchResultsPage - Opening first property from results
+2026-06-01 15:43:14 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:43:19 [main] INFO  pages.SearchResultsPage - Switched to property details window
+2026-06-01 15:43:19 [main] INFO  pages.PropertyDetailsPage - Waiting for property details page to load
+2026-06-01 15:43:42 [main] INFO  pages.PropertyDetailsPage - Property page loaded
+2026-06-01 15:43:42 [main] INFO  pages.PropertyDetailsPage - Checking for Elevator or Lift availability
+2026-06-01 15:43:42 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:43:52 [main] INFO  pages.PropertyDetailsPage - Facilities section already visible or button not found
+2026-06-01 15:43:56 [main] INFO  pages.PropertyDetailsPage - Elevator/Lift available (page source check): true
+2026-06-01 15:43:56 [main] INFO  pages.PropertyDetailsPage - Amenity verification result: PASS - Elevator or Lift is AVAILABLE in this property
+2026-06-01 15:43:56 [main] INFO  stepdefinitions.SearchSteps - PASS - Elevator or Lift is AVAILABLE in this property
+2026-06-01 15:43:56 [main] INFO  pages.PropertyDetailsPage - Navigating back to search results page
+2026-06-01 15:43:58 [main] INFO  pages.PropertyDetailsPage - Returned to search results page
+2026-06-01 15:43:58 [main] INFO  hooks.Hooks - Scenario PASSED: Verify Amenity On First Property
+2026-06-01 15:43:58 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 15:44:09 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-06-01 15:44:09 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search Validation ==========
+2026-06-01 15:44:09 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 15:44:09 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 15:44:12 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 15:44:12 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 15:44:15 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 15:44:25 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 15:45:00 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 15:45:00 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 15:45:10 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 15:45:10 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'ValidationData' row 1
+2026-06-01 15:45:10 [main] INFO  utils.ExcelUtils - Validation data read from Excel: {Destination=, CheckInDate=2026-06-08, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-13, Rooms=1}
+2026-06-01 15:45:10 [main] INFO  stepdefinitions.ValidationSteps - Excel data read - ValidationData: {Destination=, CheckInDate=2026-06-08, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-13, Rooms=1}
+2026-06-01 15:45:10 [main] INFO  pages.HomePage - Destination entered: 
+2026-06-01 15:45:10 [main] INFO  pages.HomePage - Empty destination - validation test
+2026-06-01 15:45:10 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 15:45:12 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:45:12 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 15:45:14 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:45:15 [main] INFO  pages.HomePage - Guest selection - Adults: 2
+2026-06-01 15:45:26 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:45:26 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:45:46 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f360af129f70690b207447d57978ca63)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58786}, goog:processID: 27828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58786/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f360af129f70690b207447d57978ca63
+2026-06-01 15:45:46 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f360af129f70690b207447d57978ca63)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58786}, goog:processID: 27828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58786/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f360af129f70690b207447d57978ca63
+2026-06-01 15:45:47 [main] INFO  pages.HomePage - Adults count set to: 2
+2026-06-01 15:45:47 [main] INFO  pages.HomePage - Guest selection - Children: 0
+2026-06-01 15:45:57 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:45:58 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:46:18 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f360af129f70690b207447d57978ca63)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58786}, goog:processID: 27828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58786/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f360af129f70690b207447d57978ca63
+2026-06-01 15:46:18 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f360af129f70690b207447d57978ca63)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58786}, goog:processID: 27828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58786/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f360af129f70690b207447d57978ca63
+2026-06-01 15:46:29 [main] INFO  pages.HomePage - Children count set to: 0
+2026-06-01 15:46:29 [main] INFO  pages.HomePage - Guest selection - Rooms: 1
+2026-06-01 15:46:40 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:46:40 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 15:47:01 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f360af129f70690b207447d57978ca63)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58786}, goog:processID: 27828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58786/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f360af129f70690b207447d57978ca63
+2026-06-01 15:47:01 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f360af129f70690b207447d57978ca63)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58786}, goog:processID: 27828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58786/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f360af129f70690b207447d57978ca63
+2026-06-01 15:47:02 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 15:47:02 [main] INFO  pages.HomePage - Rooms count set to: 1 and guest popup closed
+2026-06-01 15:47:02 [main] INFO  pages.HomePage - Search performed
+2026-06-01 15:47:02 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 15:47:03 [main] INFO  stepdefinitions.ValidationSteps - Invalid search performed using Excel validation data
+2026-06-01 15:47:36 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-testid='searchbox-error'], .fe_banner__message, [role='alert'], .sb-searchbox-error' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 15:47:36 [main] INFO  stepdefinitions.ValidationSteps - Validation message captured: Please enter a destination to start searching
+2026-06-01 15:47:37 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/Validation_Empty_Destination_20260601_154736.png
+2026-06-01 15:47:37 [main] INFO  stepdefinitions.ValidationSteps - Screenshot captured at: test-output/screenshots/Validation_Empty_Destination_20260601_154736.png
+2026-06-01 15:47:37 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search Validation
+2026-06-01 15:47:37 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 15:47:46 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search Validation ==========
+2026-06-01 16:19:10 [main] INFO  hooks.Hooks - ========== Starting Scenario: Search Holiday Homes Using Excel Data ==========
+2026-06-01 16:19:10 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 16:19:10 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 16:19:14 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 16:19:15 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 16:19:18 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 16:19:22 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 16:19:53 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 16:19:53 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 16:20:03 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 16:20:04 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-06-01 16:20:04 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 16:20:04 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 16:20:04 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-06-01 16:20:17 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 16:20:38 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 16:20:40 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:20:41 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-06-01 16:20:52 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:20:52 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:21:12 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (97a3cdf5507a63cd636368d567b5ba44)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60806}, goog:processID: 13572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a3cdf5507a63cd636368d567b5ba44
+2026-06-01 16:21:12 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (97a3cdf5507a63cd636368d567b5ba44)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60806}, goog:processID: 13572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a3cdf5507a63cd636368d567b5ba44
+2026-06-01 16:21:14 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-06-01 16:21:14 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-06-01 16:21:24 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:21:25 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:21:45 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (97a3cdf5507a63cd636368d567b5ba44)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60806}, goog:processID: 13572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a3cdf5507a63cd636368d567b5ba44
+2026-06-01 16:21:45 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (97a3cdf5507a63cd636368d567b5ba44)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60806}, goog:processID: 13572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a3cdf5507a63cd636368d567b5ba44
+2026-06-01 16:21:47 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-06-01 16:21:47 [main] INFO  pages.HomePage - Children count set to: 1
+2026-06-01 16:21:47 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-06-01 16:21:58 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:21:58 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:22:18 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (97a3cdf5507a63cd636368d567b5ba44)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60806}, goog:processID: 13572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a3cdf5507a63cd636368d567b5ba44
+2026-06-01 16:22:18 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (97a3cdf5507a63cd636368d567b5ba44)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60806}, goog:processID: 13572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60806/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a3cdf5507a63cd636368d567b5ba44
+2026-06-01 16:22:20 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 16:22:20 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-06-01 16:22:20 [main] INFO  pages.HomePage - Search performed
+2026-06-01 16:22:20 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:22:31 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-06-01 16:22:34 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-06-01 16:22:34 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:23:07 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 16:23:08 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: unknown
+2026-06-01 16:23:08 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-06-01 16:23:09 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-06-01 16:23:09 [main] INFO  pages.SearchResultsPage - Extracting first 3 property details
+2026-06-01 16:23:10 [main] INFO  pages.SearchResultsPage - Property 1: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 6,218₹ 4,974 | Rating: Scored 9.0
+9.0
+Wonderful
+3 reviews
+2026-06-01 16:23:11 [main] INFO  pages.SearchResultsPage - Property 2: Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window | Total: ₹ 4,974 | Per Night: ₹ 32,300 | Rating: Scored 9.0
+2026-06-01 16:23:11 [main] INFO  pages.SearchResultsPage - Property 3: Countryside Villa 4BDR with Unlimited WIFi&Netflix | Total: 1 night, 4 adults, 1 child | Per Night: ₹ 10,782 | Rating: 9.0
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - 
+========== FIRST 3 PROPERTIES ==========
+
+--- Property 1 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 6,218₹ 4,974
+Traveler Rating   : Scored 9.0
+9.0
+Wonderful
+3 reviews
+
+--- Property 2 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Opens in new window
+Total Amount      : ₹ 4,974
+Charges Per Night : ₹ 32,300
+Traveler Rating   : Scored 9.0
+
+--- Property 3 ---
+Property Name     : Countryside Villa 4BDR with Unlimited WIFi&Netflix
+Total Amount      : 1 night, 4 adults, 1 child
+Charges Per Night : ₹ 10,782
+Traveler Rating   : 9.0
+
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 1 Total Amount: 1 night, 4 adults, 1 child
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 2 Total Amount: ₹ 4,974
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 3 Total Amount: 1 night, 4 adults, 1 child
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 1 Charges Per Night: ₹ 6,218₹ 4,974
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 2 Charges Per Night: ₹ 32,300
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 3 Charges Per Night: ₹ 10,782
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 1 Traveler Rating: Scored 9.0
+9.0
+Wonderful
+3 reviews
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 2 Traveler Rating: Scored 9.0
+2026-06-01 16:23:11 [main] INFO  stepdefinitions.SearchSteps - Property 3 Traveler Rating: 9.0
+2026-06-01 16:23:11 [main] INFO  hooks.Hooks - Scenario PASSED: Search Holiday Homes Using Excel Data
+2026-06-01 16:23:13 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 16:23:24 [main] INFO  hooks.Hooks - ========== Finished Scenario: Search Holiday Homes Using Excel Data ==========
+2026-06-01 16:23:24 [main] INFO  hooks.Hooks - ========== Starting Scenario: Verify Amenity On First Property ==========
+2026-06-01 16:23:24 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 16:23:24 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 16:23:27 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 16:23:27 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 16:23:30 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 16:23:35 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 16:24:06 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 16:24:06 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 16:24:16 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 16:24:16 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'SearchData' row 1
+2026-06-01 16:24:16 [main] INFO  utils.ExcelUtils - Search data read from Excel: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 16:24:16 [main] INFO  stepdefinitions.SearchSteps - Excel data read: {Destination=Nairobi, CheckInDate=2026-06-08, Adults=4, Children=1, CheckOutDate=2026-06-13, Rooms=2}
+2026-06-01 16:24:16 [main] INFO  pages.HomePage - Destination entered: Nairobi
+2026-06-01 16:24:28 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 16:24:50 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 16:24:52 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:24:53 [main] INFO  pages.HomePage - Guest selection - Adults: 4
+2026-06-01 16:25:04 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:25:04 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:25:25 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f519b235a0ea520ea4e57c83cd92ec48)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, goog:processID: 33104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f519b235a0ea520ea4e57c83cd92ec48
+2026-06-01 16:25:25 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f519b235a0ea520ea4e57c83cd92ec48)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, goog:processID: 33104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f519b235a0ea520ea4e57c83cd92ec48
+2026-06-01 16:25:26 [main] INFO  pages.HomePage - Adults count set to: 4
+2026-06-01 16:25:26 [main] INFO  pages.HomePage - Guest selection - Children: 1
+2026-06-01 16:25:37 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:25:37 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:25:58 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f519b235a0ea520ea4e57c83cd92ec48)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, goog:processID: 33104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f519b235a0ea520ea4e57c83cd92ec48
+2026-06-01 16:25:58 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f519b235a0ea520ea4e57c83cd92ec48)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, goog:processID: 33104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f519b235a0ea520ea4e57c83cd92ec48
+2026-06-01 16:26:00 [main] INFO  pages.HomePage - Child age selected from dropdown
+2026-06-01 16:26:00 [main] INFO  pages.HomePage - Children count set to: 1
+2026-06-01 16:26:00 [main] INFO  pages.HomePage - Guest selection - Rooms: 2
+2026-06-01 16:26:10 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:26:11 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:26:31 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f519b235a0ea520ea4e57c83cd92ec48)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, goog:processID: 33104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f519b235a0ea520ea4e57c83cd92ec48
+2026-06-01 16:26:31 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (f519b235a0ea520ea4e57c83cd92ec48)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, goog:processID: 33104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f519b235a0ea520ea4e57c83cd92ec48
+2026-06-01 16:26:33 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 16:26:33 [main] INFO  pages.HomePage - Rooms count set to: 2 and guest popup closed
+2026-06-01 16:26:33 [main] INFO  pages.HomePage - Search performed
+2026-06-01 16:26:33 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:26:39 [main] INFO  pages.SearchResultsPage - Waiting for search results page to load
+2026-06-01 16:26:42 [main] INFO  pages.SearchResultsPage - Sorting by highest traveler rating
+2026-06-01 16:26:42 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:27:14 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //option[contains(text(),'Review score') or contains(text(),'Top reviewed') or contains(text(),'Best reviewed') or contains(text(),'Traveler rating')] | //li[contains(text(),'Review score') or contains(text(),'Top reviewed')]' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 16:27:14 [main] WARN  pages.SearchResultsPage - Sort dropdown issue: Element should have been "select" but was "button"
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: driver.version: unknown
+2026-06-01 16:27:14 [main] INFO  pages.SearchResultsPage - Scrolling down results page
+2026-06-01 16:27:16 [main] INFO  stepdefinitions.SearchSteps - Sorting applied - highest traveler rating
+2026-06-01 16:27:16 [main] INFO  pages.SearchResultsPage - Opening first property from results
+2026-06-01 16:27:16 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:27:20 [main] INFO  pages.SearchResultsPage - Switched to property details window
+2026-06-01 16:27:20 [main] INFO  pages.PropertyDetailsPage - Waiting for property details page to load
+2026-06-01 16:27:44 [main] INFO  pages.PropertyDetailsPage - Property page loaded
+2026-06-01 16:27:44 [main] INFO  pages.PropertyDetailsPage - Checking for Elevator or Lift availability
+2026-06-01 16:27:44 [main] INFO  pages.PropertyDetailsPage - Facilities section already visible or button not found
+2026-06-01 16:27:44 [main] ERROR hooks.Hooks - Scenario FAILED: Verify Amenity On First Property
+2026-06-01 16:27:44 [main] ERROR hooks.Hooks - Error in tearDown: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f519b235a0ea520ea4e57c83cd92ec48, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49824}, goog:processID: 33104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49824/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f519b235a0ea520ea4e57c83cd92ec48
+2026-06-01 16:27:44 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 16:27:55 [main] INFO  hooks.Hooks - ========== Finished Scenario: Verify Amenity On First Property ==========
+2026-06-01 16:27:55 [main] INFO  hooks.Hooks - ========== Starting Scenario: Invalid Search Validation ==========
+2026-06-01 16:27:55 [main] INFO  base.BaseClass - Configuration file loaded successfully
+2026-06-01 16:27:55 [main] INFO  base.BaseClass - Launching chrome browser
+2026-06-01 16:27:57 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 16:27:57 [main] INFO  base.BaseClass - Navigating to Booking.com: https://www.booking.com
+2026-06-01 16:27:59 [main] INFO  stepdefinitions.CommonSteps - Browser launch - Booking.com opened
+2026-06-01 16:28:05 [main] INFO  pages.HomePage - Popup closed: Sign-in popup
+2026-06-01 16:28:35 [main] ERROR utils.WaitUtils - Element not clickable within timeout: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #onetrust-accept-btn-handler, button[id*='accept']' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 16:28:35 [main] INFO  pages.HomePage - Cookie popup not displayed
+2026-06-01 16:28:45 [main] INFO  stepdefinitions.CommonSteps - Popup closed (if displayed)
+2026-06-01 16:28:46 [main] INFO  utils.ExcelUtils - Excel data loaded from sheet 'ValidationData' row 1
+2026-06-01 16:28:46 [main] INFO  utils.ExcelUtils - Validation data read from Excel: {Destination=, CheckInDate=2026-06-08, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-13, Rooms=1}
+2026-06-01 16:28:46 [main] INFO  stepdefinitions.ValidationSteps - Excel data read - ValidationData: {Destination=, CheckInDate=2026-06-08, TestCase=Empty Destination, Adults=2, Children=0, CheckOutDate=2026-06-13, Rooms=1}
+2026-06-01 16:28:46 [main] INFO  pages.HomePage - Destination entered: 
+2026-06-01 16:28:46 [main] INFO  pages.HomePage - Empty destination - validation test
+2026-06-01 16:28:46 [main] INFO  pages.HomePage - Date selected - Check-in: 2026-06-08
+2026-06-01 16:28:47 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:28:48 [main] INFO  pages.HomePage - Date selected - Check-out: 2026-06-13
+2026-06-01 16:28:50 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:28:50 [main] INFO  pages.HomePage - Guest selection - Adults: 2
+2026-06-01 16:29:01 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:29:02 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:29:22 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1ae77f61d57724de4ef1b0cdb5300f36)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51006}, goog:processID: 26916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51006/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae77f61d57724de4ef1b0cdb5300f36
+2026-06-01 16:29:22 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1ae77f61d57724de4ef1b0cdb5300f36)] -> id: group_adults] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51006}, goog:processID: 26916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51006/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae77f61d57724de4ef1b0cdb5300f36
+2026-06-01 16:29:22 [main] INFO  pages.HomePage - Adults count set to: 2
+2026-06-01 16:29:22 [main] INFO  pages.HomePage - Guest selection - Children: 0
+2026-06-01 16:29:33 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:29:33 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:29:53 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1ae77f61d57724de4ef1b0cdb5300f36)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51006}, goog:processID: 26916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51006/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae77f61d57724de4ef1b0cdb5300f36
+2026-06-01 16:29:53 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1ae77f61d57724de4ef1b0cdb5300f36)] -> id: group_children] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51006}, goog:processID: 26916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51006/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae77f61d57724de4ef1b0cdb5300f36
+2026-06-01 16:30:04 [main] INFO  pages.HomePage - Children count set to: 0
+2026-06-01 16:30:04 [main] INFO  pages.HomePage - Guest selection - Rooms: 1
+2026-06-01 16:30:15 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:30:16 [main] INFO  pages.HomePage - Guest popup opened
+2026-06-01 16:30:36 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1ae77f61d57724de4ef1b0cdb5300f36)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51006}, goog:processID: 26916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51006/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae77f61d57724de4ef1b0cdb5300f36
+2026-06-01 16:30:36 [main] WARN  pages.HomePage - Range input update failed, trying +/- buttons: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (1ae77f61d57724de4ef1b0cdb5300f36)] -> id: no_rooms] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2488316\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51006}, goog:processID: 26916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51006/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae77f61d57724de4ef1b0cdb5300f36
+2026-06-01 16:30:37 [main] INFO  pages.HomePage - Guest popup closed using Done button
+2026-06-01 16:30:37 [main] INFO  pages.HomePage - Rooms count set to: 1 and guest popup closed
+2026-06-01 16:30:37 [main] INFO  pages.HomePage - Search performed
+2026-06-01 16:30:37 [main] INFO  utils.WaitUtils - Scrolled to element
+2026-06-01 16:30:37 [main] INFO  stepdefinitions.ValidationSteps - Invalid search performed using Excel validation data
+2026-06-01 16:31:10 [main] ERROR utils.WaitUtils - Element not visible within timeout: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: [data-testid='searchbox-error'], .fe_banner__message, [role='alert'], .sb-searchbox-error' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-01 16:31:10 [main] INFO  stepdefinitions.ValidationSteps - Validation message captured: Please enter a destination to start searching
+2026-06-01 16:31:10 [main] INFO  utils.ScreenshotUtils - Screenshot saved at: test-output/screenshots/Validation_Empty_Destination_20260601_163110.png
+2026-06-01 16:31:10 [main] INFO  stepdefinitions.ValidationSteps - Screenshot captured at: test-output/screenshots/Validation_Empty_Destination_20260601_163110.png
+2026-06-01 16:31:10 [main] INFO  hooks.Hooks - Scenario PASSED: Invalid Search Validation
+2026-06-01 16:31:10 [main] INFO  base.BaseClass - Closing browser
+2026-06-01 16:31:18 [main] INFO  hooks.Hooks - ========== Finished Scenario: Invalid Search Validation ==========
+2026-06-01 17:34:02 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 17:34:14 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:34:14 [main] INFO  pages.HomePage - Sign-in popup closed
+2026-06-01 17:34:16 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 17:34:29 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:34:48 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:34:58 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:34:58 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 17:35:05 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:35:34 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:35:44 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:35:44 [main] INFO  utils.ExcelUtils - Excel data read from sheet: ValidationData
+2026-06-01 17:35:47 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:35:57 [main] INFO  utils.ScreenshotUtils - Screenshot captured
+2026-06-01 17:35:57 [Thread-4] INFO  base.BaseClass - Browser closed
+2026-06-01 17:37:50 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 17:38:03 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:38:04 [main] INFO  pages.HomePage - Sign-in popup closed
+2026-06-01 17:38:06 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 17:38:19 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:38:42 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:38:52 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:38:53 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 17:39:04 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:39:32 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:39:43 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:39:43 [main] INFO  utils.ExcelUtils - Excel data read from sheet: ValidationData
+2026-06-01 17:39:47 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:40:02 [main] INFO  utils.ScreenshotUtils - Screenshot captured
+2026-06-01 17:40:03 [Thread-4] INFO  base.BaseClass - Browser closed
+2026-06-01 17:45:55 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 17:46:21 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:46:22 [main] INFO  pages.HomePage - Sign-in popup closed
+2026-06-01 17:46:24 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 17:46:32 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:46:55 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:47:05 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:47:05 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 17:47:14 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:47:43 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:47:54 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 17:47:54 [main] INFO  utils.ExcelUtils - Excel data read from sheet: ValidationData
+2026-06-01 17:47:57 [main] INFO  pages.HomePage - Search performed
+2026-06-01 17:48:14 [main] INFO  utils.ScreenshotUtils - Screenshot captured
+2026-06-01 17:48:15 [Thread-4] INFO  base.BaseClass - Browser closed
+2026-06-01 18:11:40 [main] INFO  base.BaseClass - Browser launched successfully
+2026-06-01 18:11:54 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 18:11:55 [main] INFO  pages.HomePage - Sign-in popup closed
+2026-06-01 18:11:57 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 18:12:07 [main] INFO  pages.HomePage - Search performed
+2026-06-01 18:12:28 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 18:12:39 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 18:12:39 [main] INFO  utils.ExcelUtils - Excel data read from sheet: SearchData
+2026-06-01 18:12:51 [main] INFO  pages.HomePage - Search performed
+2026-06-01 18:13:20 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 18:13:30 [main] WARN  utils.WaitUtils - Element not clickable
+2026-06-01 18:13:30 [main] INFO  utils.ExcelUtils - Excel data read from sheet: ValidationData
+2026-06-01 18:13:34 [main] INFO  pages.HomePage - Search performed
+2026-06-01 18:13:51 [main] INFO  utils.ScreenshotUtils - Screenshot captured
+2026-06-01 18:13:51 [Thread-4] INFO  base.BaseClass - Browser closed
